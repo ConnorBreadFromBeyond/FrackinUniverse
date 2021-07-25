@@ -1,6 +1,6 @@
 {
 	"name" : "flight_elduukhar",
-	"type" : "head",
+	"type" : "legs",
 
 	"scripts" : ["flighttestelduukhar.lua"],
 	"animator" : "flighttest.animation",
