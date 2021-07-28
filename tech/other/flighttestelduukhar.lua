@@ -45,13 +45,13 @@ function handleEffects(on)
 end
 
 function update(args)
-	if not self.specialLast and args.moves["special1"] then	--toggle on
+	if not self.specialLast and args.moves["jump"] then	--toggle on
 		attemptActivation()
 	end
 
-	self.specialLast = args.moves["special1"]
+	self.specialLast = args.moves["jump"]
 
-	if not args.moves["special1"] then
+	if not args.moves["jump"] then
 		self.forceTimer = nil
 	end
 
